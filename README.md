@@ -1,19 +1,22 @@
-The Unity Associate Game Developer course involves several projects.
+The Unity Associate Game Developer course involves a series of units,
+introducing the editor and the managerment of different aspects of
+scenes and objects.  This is a simple template with:
+ - a (empty) sub-directory for each unit
+ - .gitignore to exclude built (vs created) items
 
-Unity projects can be saved and restored as zips:
-   1. select the Assets, Packages, and Project Settings folders
-   2. create a zip of those three folders
-   3. rename the zip to include the student and project name
+The intent is that students will fork this repo and then do the work
+in their own fork.  The expected form of a submission is a github
+URL for the (public) repo in which you have done your work.
 
-If there is not a great deal of personalization, they can more simply be
-exported and re-imported as .unitypackage files:
+If you want to export a project from one system so that you can work
+on it on another, the easiest way to do it is:
    1. in Project window, right-click the Assets folder and select Export Package
-   2. in the resulting dialog, select Export
-   3. save the package with a student name and version number
+   2. in the resulting dialog, review the list and click Export
+   3. give the package an identifying name (e.g student name and project #)
 
-But, by the time they reach upper division, all of our students should already 
-have their own GitHub accounts and be familiar with basic git operations.  Thus
-the preferred submission format may be git commits and pushes.
-This repo is a template for the projects in the Associate Game Developer course.
-Students will be told to fork it in order to create their own repos for that course.
+Such an export should be platform independent, so that a project developed
+on a Windows system can be imported into and run on a Linux system.
 
+[I have also heard that it is possible to export a project as a zip of
+the Assets, Packages, and Project Settings folders ... but I have not
+yet done this]
